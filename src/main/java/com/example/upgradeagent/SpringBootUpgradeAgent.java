@@ -5,7 +5,7 @@ import service.GPTService;
 public class SpringBootUpgradeAgent {
 
   private static final String PROJECT_PATH = "/Users/Vishnu/REPOS/AIDEMO/ecommerce-auditlog";
-  private static final String OPENAI_API_KEY = "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";
+  private static final String OPENAI_API_KEY = "your_github_PAT";
 
   public static void main(String[] args) throws Exception {
       String files = ProjectScanner.loadSpringFiles(PROJECT_PATH);
