@@ -1,4 +1,4 @@
-package service;
+package com.example.upgradeagent.service;
 
 import com.azure.ai.inference.ChatCompletionsClient;
 import com.azure.ai.inference.ChatCompletionsClientBuilder;

@@ -2,12 +2,15 @@
 
 This CLI agent uses an LLM (e.g., OpenAI GPT-4) to analyze a Spring Boot project and suggest or apply upgrades.
 
-## Usage
+##### Initial Setup
+Set the environment variables:
+M2_HOME, JAVA_HOME etc
 
-```bash
-mvn clean package
-```
-For Running the project go to the parent directory of the project and run the below command
+##### Build command :
+`./mvnw clean build`
 
-```bash
-mvn exec:java
+##### To Run the application :
+`./mvnw spring-boot:run`
+
+##### If you have a ~/.m2/settings.xml that points to your organisations maven repo
+`./mvnw -s settings.xml spring-boot:run`
